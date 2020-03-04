@@ -1,6 +1,6 @@
 describe("Note list", () => {
 
-  noteList = new NoteList();
+  var noteList = new NoteList();
   
   it("creates an empty array", () => {
     expect(Array.isArray(noteList.displayList())).toBe(true);
